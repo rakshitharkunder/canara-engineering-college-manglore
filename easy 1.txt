@@ -1,0 +1,21 @@
+canara engineering college manglore
+rakshitharkunder@gmail.com
+
+
+
+def length_of_last_word(s):
+    # Split the string into words
+    words = s.split()
+
+    # Check if there are any words in the string
+    if words:
+        # Return the length of the last word
+        return len(words[-1])
+    else:
+        # If no words are found, return 0
+        return 0
+
+# Example usage:
+input_string = "Hello World"
+output_length = length_of_last_word(input_string)
+print(output_length)
